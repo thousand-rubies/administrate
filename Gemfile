@@ -33,7 +33,7 @@ group :test do
   gem "selenium-webdriver"
   gem "shoulda-matchers"
   gem "timecop"
-  gem "webdrivers"
+  gem "webdrivers", ">= 5.3.0"
   gem "webmock"
   gem "webrick"
   gem "xpath", "3.2.0"
