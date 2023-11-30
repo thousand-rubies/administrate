@@ -25,7 +25,7 @@ group :development, :test do
 end
 
 group :test do
-  gem "ammeter"
+  gem "ammeter", ">= 1.1.6"
   gem "capybara"
   gem "database_cleaner"
   gem "formulaic"
