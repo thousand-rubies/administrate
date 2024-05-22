@@ -28,7 +28,7 @@ group :test do
   gem "ammeter"
   gem "capybara"
   gem "database_cleaner"
-  gem "formulaic"
+  gem "formulaic", ">= 0.4.2"
   gem "launchy"
   gem "selenium-webdriver"
   gem "shoulda-matchers"
