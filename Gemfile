@@ -17,15 +17,15 @@ group :development, :test do
   gem "appraisal"
   gem "awesome_print"
   gem "byebug"
-  gem "dotenv-rails"
-  gem "factory_bot_rails"
-  gem "i18n-tasks", "1.0.12"
+  gem "dotenv-rails", ">= 3.0.0"
+  gem "factory_bot_rails", ">= 6.3.0"
+  gem "i18n-tasks", "1.0.13"
   gem "pry-rails"
   gem "yard"
 end
 
 group :test do
-  gem "ammeter"
+  gem "ammeter", ">= 1.1.6"
   gem "capybara"
   gem "database_cleaner"
   gem "formulaic"
