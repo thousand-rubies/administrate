@@ -21,7 +21,7 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "i18n-tasks", "1.0.12"
   gem "pry-rails"
-  gem "yard"
+  gem "yard", ">= 0.9.29"
 end
 
 group :test do
