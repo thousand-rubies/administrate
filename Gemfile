@@ -19,9 +19,9 @@ group :development, :test do
   gem "byebug"
   gem "dotenv-rails"
   gem "factory_bot_rails"
-  gem "i18n-tasks", "1.0.12"
+  gem "i18n-tasks", "1.0.14"
   gem "pry-rails"
-  gem "yard"
+  gem "yard", ">= 0.9.29"
 end
 
 group :test do
@@ -35,7 +35,7 @@ group :test do
   gem "timecop"
   gem "webdrivers"
   gem "webmock"
-  gem "webrick"
+  gem "webrick", ">= 1.8.2"
   gem "xpath", "3.2.0"
 end
 
